@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Graduate|Questrial');
+
+body, html {
+  font-family: 'Graduate', cursive;
+  font-size: 1.04em;
+  margin: 0;
+  padding: 0;
+  height: 75vh;
+  width: 100vw;
+}
+
+article {
+  font-family: 'Questrial', sans-serif;
+  overflow: scroll;
+  box-shadow: 2em 1em 2em 1px rgba(0, 0, 0, 0.2);
+}
+
+.title { position: relative; }
+
+.half {
+  height: 40%;
+  position: absolute;
+  overflow: hidden;
+  color: black;
+}
+
+.slider-container {
+  width: 18rem;
+  font-size: 0.7em;
+  box-shadow: 2em 1em 2em 1px rgba(0, 0, 0, 0.2);
+}
+
+.slider {
+  transition: 0.3s ease-in-out;
+  overflow: scroll;
+}
+.slider:hover { height: 200px; }
+
