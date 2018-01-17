@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css?family=Graduate|Questrial');
+@import url('https://fonts.googleapis.com/css?family=Graduate|Inconsolata:400,700');
 
 body, html {
   font-family: 'Graduate', cursive;
-  font-size: 1.04em;
+  font-size: 1.06em;
   margin: 0;
   padding: 0;
   height: 75vh;
@@ -10,7 +10,7 @@ body, html {
 }
 
 article {
-  font-family: 'Questrial', sans-serif;
+  font-family: 'Inconsolata', monospace;
   overflow: scroll;
   box-shadow: 2em 1em 2em 1px rgba(0, 0, 0, 0.2);
 }
@@ -26,13 +26,39 @@ article {
 
 .slider-container {
   width: 18rem;
-  font-size: 0.7em;
   box-shadow: 2em 1em 2em 1px rgba(0, 0, 0, 0.2);
 }
 
+.slider-container:hover {
+  height: 150px;
+  .slider { height: 150px; }
+}
+
 .slider {
-  transition: 0.3s ease-in-out;
+  transition: 300ms ease;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.term {
+  display: inline-block;
+  background: #9EEBCF;
+  color: #111111;
+  padding-left: 0.1em;
+  padding-right: 0.1em;
+  opacity: 0.9;
+}
+
+.list-toggler {
+  margin: 0;
+  animation: open 0.55s;
+  animation-fill-mode: forwards;
+  animation-play-state: running;
+  width: 250px;
   overflow: scroll;
 }
-.slider:hover { height: 200px; }
 
+@keyframes open {
+  35% { height: 2em; }
+  100% { height: 100%; }
+}

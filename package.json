@@ -1,7 +1,7 @@
 {
   "name": "financial-foundations",
   "version": "1.0.0",
-  "description": "",
+  "description": "A React Web Application to store my notes from the course, Finance Foundations, on Lynda.com",
   "main": "/client/index.jsx",
   "dependencies": {
     "babel-core": "^6.26.0",
