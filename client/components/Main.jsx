@@ -21,9 +21,9 @@ export default (props) => {
         ? props.children
         : <Fragment>
             <p className="tc ma2"><NavLink className="link black hover-red" to="/">Financial Foundations</NavLink></p>
-            <ChapterList chapters={routeElements.slice(1, -1)}/>
 
-            <header className="bg-purple white bb b--gold bw5">
+            <header className="bg-green white bb b--light-silver bw5">
+            <ChapterList chapters={routeElements.slice(1, -1)}/>
               <h2 className="mt0 mr5 tracked b pt3 ttu ph3">{title}</h2>
               <div className="fr">
                 {/* Go to homepage if 'Back' is clicked on Chapter 1 */}

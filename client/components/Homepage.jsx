@@ -30,11 +30,8 @@ export default () => (
         </a>
       </span>
     </div>
-    <h3 className="h2 title gray">
-      <span className="half">Notes converted to a website</span>
-      <span>Notes converted to a website</span>
-    </h3>
 
+    <h3 className="h2 gray"> Notes converted to a website </h3>
     <h6>Material on this website is from the Lynda course, <a href="https://www.lynda.com/Business-Accounting-tutorials/Finance-Fundamentals/174917-2.html?finance+foundations">Finance Foundations</a> by Jim Stice and Kay Stice</h6>
 
     <NavLink to="/chapter-1" className="f6 grow no-underline br-pill ba ph3 pv2 mb2 dib mid-gray">

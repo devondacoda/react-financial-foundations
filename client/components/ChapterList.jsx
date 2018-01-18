@@ -3,15 +3,18 @@ import { NavLink } from 'react-router-dom';
 
 export default (props) => (
   <div
-    className="slider pointer right-0 absolute dib h2 w2 bg-light-purple mt3 mr3"
+    className="slider pointer right-0 absolute dib h2 w2 mr4 bg-dark-green circle"
     onClick={(evt) => {
       const { classList } = evt.currentTarget;
       if (classList.contains('list-toggler')) {
         classList.remove('list-toggler');
+        evt.currentTarget.firstChild.textContent = '\u2780';
       } else {
         classList.add('list-toggler');
+        evt.currentTarget.firstChild.textContent = '';
       }
     }}>
+    <p className="pa0 ma2">{'\u2780'}</p>
     <ul className="list mt6 f4">
       {
         props.chapters.map((chapter, i) =>
