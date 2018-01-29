@@ -12,7 +12,7 @@ export default () => (
     </dl>
     <dl className="f4 lh-title mv2">
       <dt className="term">Cash flow statement:</dt>
-      <dd className="ml0">displays where cash has gone out and cash has come in.</dd>
+      <dd className="ml0">displays where cash has gone out and where cash has come in.</dd>
     </dl>
 
     <br/>

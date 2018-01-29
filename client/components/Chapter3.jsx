@@ -21,8 +21,3 @@ export default () => (
     </dl>
   </Fragment>
 );
-//Notes for upcoming chapters
-//Income Statement
-// Unlike the balance sheet, which covers one moment in time, the income statement provides performance information about a time period.
-
-// Cash flow - This covers three areas - operations (daily), investing (occasional), and financing (occasional).
