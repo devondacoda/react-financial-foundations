@@ -9,6 +9,8 @@ export default () => (
       <li>How to manage it once you have it</li>
     </ol>
 
-    <aside>Most people refer to <span className="b">number 2</span> when talking about finance</aside>
+    <aside>
+      Most people refer to <span className="b">number 2</span> when talking about finance
+    </aside>
   </Fragment>
 );

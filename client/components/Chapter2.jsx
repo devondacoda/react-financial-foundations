@@ -15,7 +15,7 @@ export default () => (
       <dd className="ml0">displays where cash has gone out and where cash has come in.</dd>
     </dl>
 
-    <br/>
+    <br />
     <aside>
       Financial statements are crucial for a company to operate in the most efficient manner. They tell a company a lot about what works and what needs to improve, allowing them to make the right decisions.
     </aside>

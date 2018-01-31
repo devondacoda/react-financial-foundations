@@ -6,7 +6,7 @@ export default () => (
       <dt className="term">Income Statement:</dt>
       <dd className="ml0">report of a company's profit generated over a time period (quarterly, annually, etc.)</dd>
     </dl>
-    <hr/>
+    <hr />
     <p>
       Unlike the balance sheet, which covers one moment in time (like a snapshot), the income statement provides performance information about a time period.
     </p>
