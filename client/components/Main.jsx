@@ -23,6 +23,7 @@ export default (props) => {
             <p className="tc ma2"><NavLink className="link black hover-red" to="/">Financial Foundations</NavLink></p>
 
             <header className="bg-green white bb b--light-silver bw5">
+            {/* Drop down selector */}
             <ChapterList chapters={routeElements.slice(1, -1)}/>
               <h2 className="mt0 mr5 tracked b pt3 ttu ph3">{title}</h2>
               <div className="fr">
