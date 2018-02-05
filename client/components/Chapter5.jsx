@@ -6,7 +6,7 @@ export default () => (
       <dt className="term">Cash flow statement:</dt>
       <dd className="ml0">displays where cash has gone out and where cash has come in.</dd>
     </dl>
-    <hr/>
+    <hr />
     <p>
       Cash flow - This covers three areas - operations (daily), investing (occasional), and financing (occasional).
     </p>

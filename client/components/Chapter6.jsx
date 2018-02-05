@@ -51,9 +51,9 @@ export default () => (
 
     <aside>
       * a current asset is an asset that is expected to be used within the current year
-      <br/>
+      <br />
       ** a current liability is an obligation expected to be paid within the current year
-      <br/>
+      <br />
       *** A.K.A. market capitalization: the total cost of all the shares of company
     </aside>
   </Fragment>
