@@ -17,12 +17,12 @@ const ChapterList = props => (
     }}
   >
     <p className="pa0 ma2">{'\u2780'}</p>
-    <ul className="list mt6 f4">
+    <ul className="list mt6 pa0 f4">
       {
         props.chapters.map((chapter, i) => (
-          <li key={chapter.props.path} className="mt5 br2">
+          <li key={chapter.props.path} className="mt5 br2 tc">
             <NavLink
-              className="no-underline near-white mt5 bg-animate bg-near-black hover-bg-gray ma2 tc br2 pa2 w-100"
+              className="no-underline near-white mt5 bg-animate bg-near-black hover-bg-gray ma2 br2 pa2 w-100"
               to={chapter.props.path}
             >
               {`chapter ${i + 1}`}
